@@ -28,22 +28,17 @@ It supports user authentication, product management, orders, and shopping cart. 
 - DELETE /api/products/:id → Delete product (Admin)  
 
 **Orders**
-- POST /api/order → Create order  
-- GET /api/order → View all orders (Admin)  
-- GET /api/order/:id → View order by ID (Admin)  
-- PUT /api/order/:id → Update order status (Admin)  
-- DELETE /api/order/:id → Delete order (Admin)  
+- POST /api/orders  → Create order  
+- GET /api/orders  → View all orders (Admin)  
+- GET /api/orders/:id → View order by ID (Admin)  
+- PUT /api/orders/:id → Update order status (Admin)  
+- DELETE /api/orders/:id → Delete order (Admin)  
 
 **Cart**
-- POST /api/cart → Add cart  
-- GET /api/cart → View all carts (Admin)  
-- GET /api/cart/:id → View cart by ID (Admin)  
-- PUT /api/cart/:id → Update cart  
-- DELETE /api/cart/:id → Delete cart  
+- POST /api/carts → Add cart  
+- GET /api/carts → View all carts (Admin)  
+- GET /api/carts/:id → View cart by ID (Admin)  
+- PUT /api/carts/:id → Update cart  
+- DELETE /api/carts/:id → Delete cart  
 
-## Installation
 
-```bash
-git clone https://github.com/yourusername/flowershop.git
-cd flowershop
-npm install
